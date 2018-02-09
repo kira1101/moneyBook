@@ -8,12 +8,15 @@
 
 import XCTest
 @testable import moneyBook
+import RealmSwift
+import UIKit
 
 class moneyBookTests: XCTestCase {
-    
+    var vc: CalendarViewController!
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
+        vc = CalendarViewController()
     }
     
     override func tearDown() {

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zIW-X9-lTI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Senty.ttf">
+            <string>SentyWen</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Setting View Controller-->
+        <scene sceneID="8Q7-z1-KVR">
+            <objects>
+                <viewController id="zIW-X9-lTI" customClass="SettingViewController" customModule="moneyBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ljn-LC-VMo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" image="3132.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="qfH-nM-jCv">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="647" id="bST-Kl-OKI"/>
+                                    <constraint firstAttribute="width" constant="375" id="vys-5U-LWa"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="設定" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MjA-f1-ItU">
+                                <rect key="frame" x="0.0" y="20" width="375" height="56"/>
+                                <fontDescription key="fontDescription" name="SentyWen" family="SentyWen" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lZ2-kI-YQJ">
+                                <rect key="frame" x="329" y="33" width="30" height="30"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="addClicked:" destination="zIW-X9-lTI" eventType="touchUpInside" id="vXM-OY-sLh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="qfH-nM-jCv" firstAttribute="bottom" secondItem="0kx-kk-slW" secondAttribute="bottom" id="5OH-gM-nFs"/>
+                            <constraint firstItem="lZ2-kI-YQJ" firstAttribute="top" secondItem="0kx-kk-slW" secondAttribute="top" constant="13" id="5XR-Br-wiy"/>
+                            <constraint firstAttribute="trailing" secondItem="MjA-f1-ItU" secondAttribute="trailing" id="I6y-0F-786"/>
+                            <constraint firstItem="lZ2-kI-YQJ" firstAttribute="leading" secondItem="0kx-kk-slW" secondAttribute="leading" constant="329" id="Mld-q2-QhE"/>
+                            <constraint firstItem="MjA-f1-ItU" firstAttribute="leading" secondItem="Ljn-LC-VMo" secondAttribute="leading" id="ONT-ev-ep4"/>
+                            <constraint firstItem="MjA-f1-ItU" firstAttribute="top" secondItem="0kx-kk-slW" secondAttribute="top" id="Rbv-Fc-23p"/>
+                            <constraint firstItem="qfH-nM-jCv" firstAttribute="leading" secondItem="0kx-kk-slW" secondAttribute="leading" id="VqC-Ss-vX5"/>
+                            <constraint firstItem="qfH-nM-jCv" firstAttribute="top" secondItem="0kx-kk-slW" secondAttribute="top" id="fkF-ZR-nxV"/>
+                            <constraint firstItem="qfH-nM-jCv" firstAttribute="trailing" secondItem="0kx-kk-slW" secondAttribute="trailing" id="x6y-hw-p9E"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0kx-kk-slW"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="website.png" id="bhm-J6-XJT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4bD-3P-Tit" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="878" y="2126"/>
+        </scene>
+        <!--Popover View Controller-->
+        <scene sceneID="dyx-72-X7b">
+            <objects>
+                <viewController storyboardIdentifier="popover_segue" id="Y8e-xu-7On" customClass="PopoverViewController" customModule="moneyBook" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0g8-u9-6Xl">
+                        <rect key="frame" x="0.0" y="0.0" width="250" height="160"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="U2V-wa-HKW"/>
+                    </view>
+                    <value key="contentSizeForViewInPopover" type="size" width="250" height="160"/>
+                    <size key="freeformSize" width="250" height="160"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IXu-bt-AaL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1766" y="2125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="3132.jpg" width="4200" height="4200"/>
+        <image name="website.png" width="32" height="32"/>
+    </resources>
+    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+</document>

@@ -7,13 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E85361CB9D12CEFA6D04DD0 /* Pods_moneyBookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 885D8BDC9F179AF94E68B008 /* Pods_moneyBookUITests.framework */; };
+		6340D75E202C19A800C654FD /* PopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340D75D202C19A800C654FD /* PopoverViewController.swift */; };
+		6340D760202C1AC100C654FD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340D75F202C1AC100C654FD /* SettingViewController.swift */; };
+		6340D763202C209800C654FD /* camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6340D762202C209800C654FD /* camera.storyboard */; };
+		6340D765202C241200C654FD /* MyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6340D764202C241200C654FD /* MyPageViewController.swift */; };
 		6379E9BA1FF3609800F9D85F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6379E9B91FF3609800F9D85F /* AppDelegate.swift */; };
-		6379E9BC1FF3609800F9D85F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6379E9BB1FF3609800F9D85F /* ViewController.swift */; };
+		6379E9BC1FF3609800F9D85F /* BookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6379E9BB1FF3609800F9D85F /* BookViewController.swift */; };
 		6379E9BF1FF3609800F9D85F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6379E9BD1FF3609800F9D85F /* Main.storyboard */; };
 		6379E9C11FF3609800F9D85F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6379E9C01FF3609800F9D85F /* Assets.xcassets */; };
 		6379E9C41FF3609800F9D85F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6379E9C21FF3609800F9D85F /* LaunchScreen.storyboard */; };
 		6379E9CF1FF3609800F9D85F /* moneyBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6379E9CE1FF3609800F9D85F /* moneyBookTests.swift */; };
 		6379E9DA1FF3609800F9D85F /* moneyBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6379E9D91FF3609800F9D85F /* moneyBookUITests.swift */; };
+		6379E9E91FF363D000F9D85F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6379E9E81FF363D000F9D85F /* background.jpg */; };
+		6379E9EB1FF3662A00F9D85F /* background2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6379E9EA1FF3662A00F9D85F /* background2.jpg */; };
+		6379E9ED1FF3679300F9D85F /* money.png in Resources */ = {isa = PBXBuildFile; fileRef = 6379E9EC1FF3679300F9D85F /* money.png */; };
+		6379E9EF1FF369BF00F9D85F /* invoice.png in Resources */ = {isa = PBXBuildFile; fileRef = 6379E9EE1FF369BE00F9D85F /* invoice.png */; };
+		6379E9F31FF36BE000F9D85F /* website.png in Resources */ = {isa = PBXBuildFile; fileRef = 6379E9F01FF36BDF00F9D85F /* website.png */; };
+		6379E9F41FF36BE000F9D85F /* shield.png in Resources */ = {isa = PBXBuildFile; fileRef = 6379E9F11FF36BE000F9D85F /* shield.png */; };
+		6379E9F71FF36C3200F9D85F /* calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6379E9F61FF36C3200F9D85F /* calendar.png */; };
+		6379E9FB1FF37C1000F9D85F /* Senty.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6379E9FA1FF378C500F9D85F /* Senty.ttf */; };
+		6386CB2C1FF6085500364420 /* ItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386CB2B1FF6085500364420 /* ItemType.swift */; };
+		6386CB301FF641EC00364420 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6386CB2F1FF641EC00364420 /* CalendarViewController.swift */; };
+		63CF2C952022F5C500F52D95 /* setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CF2C942022F5C500F52D95 /* setting.storyboard */; };
+		63CF2C982022F64600F52D95 /* data.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CF2C972022F64600F52D95 /* data.storyboard */; };
+		63CF2C9C2022F6AA00F52D95 /* account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63CF2C9B2022F6AA00F52D95 /* account.storyboard */; };
+		63E9DC8120244907004B2D3A /* 3132.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E9DC8020244905004B2D3A /* 3132.jpg */; };
+		63E9DC8320244CFD004B2D3A /* 6726.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E9DC8220244CFC004B2D3A /* 6726.jpg */; };
+		63E9DC87202456BA004B2D3A /* cup.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E9DC84202456BA004B2D3A /* cup.png */; };
+		63E9DC88202456BA004B2D3A /* food.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E9DC85202456BA004B2D3A /* food.png */; };
+		63E9DC89202456BA004B2D3A /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E9DC86202456BA004B2D3A /* bus.png */; };
+		63E9DC8B20245805004B2D3A /* christmas.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E9DC8A20245805004B2D3A /* christmas.png */; };
+		6BB2791F0C5E856141C0E44A /* Pods_moneyBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB48357F7AD91FA4BD7C747D /* Pods_moneyBook.framework */; };
+		DF35541737925609C842416B /* Pods_moneyBookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7019E3036CF1BF3C70F1CB1D /* Pods_moneyBookTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +60,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		34C7F6AA80763D46F4E5DFE1 /* Pods-moneyBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-moneyBookUITests/Pods-moneyBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		37279A9D1DBD6D580074BDED /* Pods-moneyBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-moneyBook/Pods-moneyBook.release.xcconfig"; sourceTree = "<group>"; };
+		3AAA35B0D8FE502D722C2E7C /* Pods-moneyBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moneyBookUITests/Pods-moneyBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6340D75D202C19A800C654FD /* PopoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverViewController.swift; sourceTree = "<group>"; };
+		6340D75F202C1AC100C654FD /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		6340D762202C209800C654FD /* camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = camera.storyboard; sourceTree = "<group>"; };
+		6340D764202C241200C654FD /* MyPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPageViewController.swift; sourceTree = "<group>"; };
+		63616E041FFB141600B5B8C5 /* Objc-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Objc-Bridge-Header.h"; sourceTree = "<group>"; };
 		6379E9B61FF3609800F9D85F /* moneyBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moneyBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6379E9B91FF3609800F9D85F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6379E9BB1FF3609800F9D85F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6379E9BB1FF3609800F9D85F /* BookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewController.swift; sourceTree = "<group>"; };
 		6379E9BE1FF3609800F9D85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6379E9C01FF3609800F9D85F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6379E9C31FF3609800F9D85F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +81,31 @@
 		6379E9D51FF3609800F9D85F /* moneyBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moneyBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6379E9D91FF3609800F9D85F /* moneyBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moneyBookUITests.swift; sourceTree = "<group>"; };
 		6379E9DB1FF3609800F9D85F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6379E9E81FF363D000F9D85F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		6379E9EA1FF3662A00F9D85F /* background2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background2.jpg; sourceTree = "<group>"; };
+		6379E9EC1FF3679300F9D85F /* money.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = money.png; sourceTree = "<group>"; };
+		6379E9EE1FF369BE00F9D85F /* invoice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = invoice.png; sourceTree = "<group>"; };
+		6379E9F01FF36BDF00F9D85F /* website.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = website.png; sourceTree = "<group>"; };
+		6379E9F11FF36BE000F9D85F /* shield.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shield.png; sourceTree = "<group>"; };
+		6379E9F61FF36C3200F9D85F /* calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar.png; sourceTree = "<group>"; };
+		6379E9FA1FF378C500F9D85F /* Senty.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Senty.ttf; sourceTree = "<group>"; };
+		6386CB2B1FF6085500364420 /* ItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemType.swift; sourceTree = "<group>"; };
+		6386CB2F1FF641EC00364420 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		63CF2C942022F5C500F52D95 /* setting.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = setting.storyboard; sourceTree = "<group>"; };
+		63CF2C972022F64600F52D95 /* data.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = data.storyboard; sourceTree = "<group>"; };
+		63CF2C9B2022F6AA00F52D95 /* account.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = account.storyboard; sourceTree = "<group>"; };
+		63E9DC8020244905004B2D3A /* 3132.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3132.jpg; sourceTree = "<group>"; };
+		63E9DC8220244CFC004B2D3A /* 6726.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6726.jpg; sourceTree = "<group>"; };
+		63E9DC84202456BA004B2D3A /* cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cup.png; sourceTree = "<group>"; };
+		63E9DC85202456BA004B2D3A /* food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = food.png; sourceTree = "<group>"; };
+		63E9DC86202456BA004B2D3A /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bus.png; sourceTree = "<group>"; };
+		63E9DC8A20245805004B2D3A /* christmas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = christmas.png; sourceTree = "<group>"; };
+		7019E3036CF1BF3C70F1CB1D /* Pods_moneyBookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moneyBookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C45320920ABC4654A5FE08 /* Pods-moneyBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moneyBook/Pods-moneyBook.debug.xcconfig"; sourceTree = "<group>"; };
+		84EBA08C975E3D7B9FC7BB2E /* Pods-moneyBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-moneyBookTests/Pods-moneyBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		885D8BDC9F179AF94E68B008 /* Pods_moneyBookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moneyBookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB48357F7AD91FA4BD7C747D /* Pods_moneyBook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moneyBook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1079866E92A7B97B53EBB8B /* Pods-moneyBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moneyBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-moneyBookTests/Pods-moneyBookTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BB2791F0C5E856141C0E44A /* Pods_moneyBook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF35541737925609C842416B /* Pods_moneyBookTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +129,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E85361CB9D12CEFA6D04DD0 /* Pods_moneyBookUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		02E51E601DB3F44776107049 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				73C45320920ABC4654A5FE08 /* Pods-moneyBook.debug.xcconfig */,
+				37279A9D1DBD6D580074BDED /* Pods-moneyBook.release.xcconfig */,
+				D1079866E92A7B97B53EBB8B /* Pods-moneyBookTests.debug.xcconfig */,
+				84EBA08C975E3D7B9FC7BB2E /* Pods-moneyBookTests.release.xcconfig */,
+				3AAA35B0D8FE502D722C2E7C /* Pods-moneyBookUITests.debug.xcconfig */,
+				34C7F6AA80763D46F4E5DFE1 /* Pods-moneyBookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		6379E9AD1FF3609800F9D85F = {
 			isa = PBXGroup;
 			children = (
+				6379E9E71FF363BF00F9D85F /* res */,
 				6379E9B81FF3609800F9D85F /* moneyBook */,
 				6379E9CD1FF3609800F9D85F /* moneyBookTests */,
 				6379E9D81FF3609800F9D85F /* moneyBookUITests */,
 				6379E9B71FF3609800F9D85F /* Products */,
+				02E51E601DB3F44776107049 /* Pods */,
+				B95857631DDD9647E48FDD9D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +176,18 @@
 			isa = PBXGroup;
 			children = (
 				6379E9B91FF3609800F9D85F /* AppDelegate.swift */,
-				6379E9BB1FF3609800F9D85F /* ViewController.swift */,
+				6379E9BB1FF3609800F9D85F /* BookViewController.swift */,
+				6386CB2B1FF6085500364420 /* ItemType.swift */,
+				6340D75D202C19A800C654FD /* PopoverViewController.swift */,
+				6340D764202C241200C654FD /* MyPageViewController.swift */,
+				6386CB2F1FF641EC00364420 /* CalendarViewController.swift */,
+				6340D75F202C1AC100C654FD /* SettingViewController.swift */,
+				63616E041FFB141600B5B8C5 /* Objc-Bridge-Header.h */,
+				63CF2C9B2022F6AA00F52D95 /* account.storyboard */,
 				6379E9BD1FF3609800F9D85F /* Main.storyboard */,
+				6340D762202C209800C654FD /* camera.storyboard */,
+				63CF2C972022F64600F52D95 /* data.storyboard */,
+				63CF2C942022F5C500F52D95 /* setting.storyboard */,
 				6379E9C01FF3609800F9D85F /* Assets.xcassets */,
 				6379E9C21FF3609800F9D85F /* LaunchScreen.storyboard */,
 				6379E9C51FF3609800F9D85F /* Info.plist */,
@@ -125,6 +213,37 @@
 			path = moneyBookUITests;
 			sourceTree = "<group>";
 		};
+		6379E9E71FF363BF00F9D85F /* res */ = {
+			isa = PBXGroup;
+			children = (
+				6379E9E81FF363D000F9D85F /* background.jpg */,
+				6379E9EC1FF3679300F9D85F /* money.png */,
+				63E9DC86202456BA004B2D3A /* bus.png */,
+				63E9DC84202456BA004B2D3A /* cup.png */,
+				63E9DC85202456BA004B2D3A /* food.png */,
+				63E9DC8A20245805004B2D3A /* christmas.png */,
+				6379E9EE1FF369BE00F9D85F /* invoice.png */,
+				63E9DC8020244905004B2D3A /* 3132.jpg */,
+				6379E9FA1FF378C500F9D85F /* Senty.ttf */,
+				63E9DC8220244CFC004B2D3A /* 6726.jpg */,
+				6379E9F11FF36BE000F9D85F /* shield.png */,
+				6379E9F61FF36C3200F9D85F /* calendar.png */,
+				6379E9F01FF36BDF00F9D85F /* website.png */,
+				6379E9EA1FF3662A00F9D85F /* background2.jpg */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+		B95857631DDD9647E48FDD9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB48357F7AD91FA4BD7C747D /* Pods_moneyBook.framework */,
+				7019E3036CF1BF3C70F1CB1D /* Pods_moneyBookTests.framework */,
+				885D8BDC9F179AF94E68B008 /* Pods_moneyBookUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +251,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6379E9DE1FF3609800F9D85F /* Build configuration list for PBXNativeTarget "moneyBook" */;
 			buildPhases = (
+				F687EAA64E3C62AE5249A6D2 /* [CP] Check Pods Manifest.lock */,
 				6379E9B21FF3609800F9D85F /* Sources */,
 				6379E9B31FF3609800F9D85F /* Frameworks */,
 				6379E9B41FF3609800F9D85F /* Resources */,
+				0C062729D1DCD93151BF87F1 /* [CP] Embed Pods Frameworks */,
+				2B16CFE48FE8901C3EE96AF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6379E9E11FF3609800F9D85F /* Build configuration list for PBXNativeTarget "moneyBookTests" */;
 			buildPhases = (
+				811375DFD5B41C23D33DDF11 /* [CP] Check Pods Manifest.lock */,
 				6379E9C61FF3609800F9D85F /* Sources */,
 				6379E9C71FF3609800F9D85F /* Frameworks */,
 				6379E9C81FF3609800F9D85F /* Resources */,
+				91D70764A0DA8CFF92B8B5A8 /* [CP] Embed Pods Frameworks */,
+				BF31E30E9DE00D848E09F753 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +292,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6379E9E41FF3609800F9D85F /* Build configuration list for PBXNativeTarget "moneyBookUITests" */;
 			buildPhases = (
+				BE21982907F4B61DC18192D4 /* [CP] Check Pods Manifest.lock */,
 				6379E9D11FF3609800F9D85F /* Sources */,
 				6379E9D21FF3609800F9D85F /* Frameworks */,
 				6379E9D31FF3609800F9D85F /* Resources */,
+				A1A90B81F7C72B2DCDB47545 /* [CP] Embed Pods Frameworks */,
+				DB16475F9CB4467307FECF65 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,8 +360,26 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63CF2C982022F64600F52D95 /* data.storyboard in Resources */,
+				63E9DC88202456BA004B2D3A /* food.png in Resources */,
+				63E9DC8B20245805004B2D3A /* christmas.png in Resources */,
+				63E9DC87202456BA004B2D3A /* cup.png in Resources */,
 				6379E9C41FF3609800F9D85F /* LaunchScreen.storyboard in Resources */,
+				63E9DC8120244907004B2D3A /* 3132.jpg in Resources */,
+				6379E9EF1FF369BF00F9D85F /* invoice.png in Resources */,
+				63E9DC89202456BA004B2D3A /* bus.png in Resources */,
+				63CF2C952022F5C500F52D95 /* setting.storyboard in Resources */,
+				63E9DC8320244CFD004B2D3A /* 6726.jpg in Resources */,
+				63CF2C9C2022F6AA00F52D95 /* account.storyboard in Resources */,
+				6379E9E91FF363D000F9D85F /* background.jpg in Resources */,
+				6379E9F71FF36C3200F9D85F /* calendar.png in Resources */,
+				6379E9ED1FF3679300F9D85F /* money.png in Resources */,
+				6379E9F31FF36BE000F9D85F /* website.png in Resources */,
+				6379E9EB1FF3662A00F9D85F /* background2.jpg in Resources */,
+				6379E9F41FF36BE000F9D85F /* shield.png in Resources */,
+				6340D763202C209800C654FD /* camera.storyboard in Resources */,
 				6379E9C11FF3609800F9D85F /* Assets.xcassets in Resources */,
+				6379E9FB1FF37C1000F9D85F /* Senty.ttf in Resources */,
 				6379E9BF1FF3609800F9D85F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +400,176 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C062729D1DCD93151BF87F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-moneyBook/Pods-moneyBook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/ChartsRealm/ChartsRealm.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChartsRealm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moneyBook/Pods-moneyBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2B16CFE48FE8901C3EE96AF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moneyBook/Pods-moneyBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		811375DFD5B41C23D33DDF11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moneyBookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91D70764A0DA8CFF92B8B5A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moneyBookTests/Pods-moneyBookTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1A90B81F7C72B2DCDB47545 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moneyBookUITests/Pods-moneyBookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE21982907F4B61DC18192D4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moneyBookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF31E30E9DE00D848E09F753 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moneyBookTests/Pods-moneyBookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB16475F9CB4467307FECF65 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-moneyBookUITests/Pods-moneyBookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F687EAA64E3C62AE5249A6D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moneyBook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6379E9B21FF3609800F9D85F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6379E9BC1FF3609800F9D85F /* ViewController.swift in Sources */,
+				6386CB301FF641EC00364420 /* CalendarViewController.swift in Sources */,
+				6379E9BC1FF3609800F9D85F /* BookViewController.swift in Sources */,
+				6340D765202C241200C654FD /* MyPageViewController.swift in Sources */,
 				6379E9BA1FF3609800F9D85F /* AppDelegate.swift in Sources */,
+				6340D75E202C19A800C654FD /* PopoverViewController.swift in Sources */,
+				6386CB2C1FF6085500364420 /* ItemType.swift in Sources */,
+				6340D760202C1AC100C654FD /* SettingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +733,16 @@
 		};
 		6379E9DF1FF3609800F9D85F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73C45320920ABC4654A5FE08 /* Pods-moneyBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9EH799Z8U;
 				INFOPLIST_FILE = moneyBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.promos.moneyBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "moneyBook/Objc-Bridge-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,13 +750,16 @@
 		};
 		6379E9E01FF3609800F9D85F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37279A9D1DBD6D580074BDED /* Pods-moneyBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9EH799Z8U;
 				INFOPLIST_FILE = moneyBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.promos.moneyBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "moneyBook/Objc-Bridge-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -452,14 +767,19 @@
 		};
 		6379E9E21FF3609800F9D85F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1079866E92A7B97B53EBB8B /* Pods-moneyBookTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9EH799Z8U;
 				INFOPLIST_FILE = moneyBookTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.promos.moneyBookTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "moneyBook/Objc-Bridge-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moneyBook.app/moneyBook";
@@ -468,14 +788,19 @@
 		};
 		6379E9E31FF3609800F9D85F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84EBA08C975E3D7B9FC7BB2E /* Pods-moneyBookTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9EH799Z8U;
 				INFOPLIST_FILE = moneyBookTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.promos.moneyBookTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "moneyBook/Objc-Bridge-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moneyBook.app/moneyBook";
@@ -484,31 +809,45 @@
 		};
 		6379E9E51FF3609800F9D85F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAA35B0D8FE502D722C2E7C /* Pods-moneyBookUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9EH799Z8U;
 				INFOPLIST_FILE = moneyBookUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.promos.moneyBookUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "moneyBook/Objc-Bridge-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = moneyBook;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Debug;
 		};
 		6379E9E61FF3609800F9D85F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C7F6AA80763D46F4E5DFE1 /* Pods-moneyBookUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C9EH799Z8U;
 				INFOPLIST_FILE = moneyBookUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.promos.moneyBookUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "moneyBook/Objc-Bridge-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = moneyBook;
+				VALID_ARCHS = "armv7 armv7s arm64";
 			};
 			name = Release;
 		};
